@@ -1,0 +1,35 @@
+{
+  "name": "trackquake",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^3.0.6",
+    "firebase": "^9.22.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-leaflet": "^4.2.1",
+    "react-native-permissions": "^3.8.0",
+    "react-native-push-notification": "^8.1.1"
+  },
+  "devDependencies": {
+    "@tsconfig/react-native": "^3.0.2",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-native": "^0.72.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.2"
+  }
+}
